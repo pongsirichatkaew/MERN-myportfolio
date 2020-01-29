@@ -1,6 +1,9 @@
 @import '~antd/dist/antd.css';
 
-.App{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+html {
+  scroll-behavior: smooth;
+}
+.App {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
 }

@@ -1,4 +1,38 @@
-.Content{
-    background-color:#0B132B;
-    flex-grow: 2;
+.Content {
+  background-color: #0b132b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  min-height: 50vh;
 }
+
+/* .FullRow {
+  width: 100%;
+} */
+
+.SpanClicked {
+  margin-left: 32px;
+}
+.SpanClicked:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.Profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
+
+

@@ -24,6 +24,26 @@ const config = {
         use: ['babel-loader']
       },
       {
+        test: /\.less$/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader' // translates CSS into CommonJS
+          },
+          {
+            loader: 'less-loader', // compiles Less to CSS
+            options: {
+              modifyVars: {
+                'font-size-base':'32px'
+              },
+              javascriptEnabled: true
+            }
+          }
+        ]
+      },
+      {
         test: /\.css$/,
         use: [
           'style-loader',

@@ -24,4 +24,3 @@ app.listen(port, function onStart(err) {
   }
   console.info('Server started on port %s.', port);
 });
-
