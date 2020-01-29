@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-
+import './App.css';
+import { Button } from 'antd';
+import { BrowserRouter } from 'react-router-dom';
+import MainRouter from './MainRouter';
+import MainPage from './core/MainPage';
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>HelloExpress</h1>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <MainRouter />
+        </div>
+      </BrowserRouter>
     );
   }
 }
