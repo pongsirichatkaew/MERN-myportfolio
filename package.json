@@ -41,7 +41,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "isomorphic-style-loader": "^5.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "less-loader": "^5.0.0",
     "mongodb": "^3.5.2",
     "mongoose": "^5.8.10",
